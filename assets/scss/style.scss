@@ -18,3 +18,21 @@
 .dropdown-item {
   color: white;
 }
+.header {
+  top: 0;
+  right: 0;
+  left: 0;
+  max-height: 80px;
+  z-index: 10;
+}
+.main {
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.footer {
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-height: max-content;
+  z-index: 10;
+}
