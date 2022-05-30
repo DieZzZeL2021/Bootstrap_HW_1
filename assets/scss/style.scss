@@ -2,13 +2,20 @@
 
 @use "../../libs/normalize.css/normalize.scss";
 
+.footer,
+.header {
+  min-height: 100px;
+}
+
 .nav-link {
   color: #0ff583;
 }
+
 .active {
   color: #0cc0f5 !important;
   font-weight: bold;
 }
+
 .dropdown-menu {
   background-color: #8b08d4;
 }
